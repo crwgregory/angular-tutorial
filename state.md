@@ -1,4 +1,6 @@
 # Managing both Server and Local Ngrx State
+### Prerequisites
+
 ### Directory Strucuture
 ```
 src/
@@ -53,7 +55,7 @@ export interface User {
 
 ### The `Actions`
 An Action is literally that, an 'Action'. Something that is doing something. In this case it is updating state. That state
-can either be on the Server (through API requests or `Effects` updating the database) or in the local memory of the browser (Redux Store).
+can either be on the Server (through API requests, also called `Effects`) or in the local memory of the browser (Redux Store).
 
 ```
 store/actions/
