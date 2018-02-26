@@ -1,4 +1,24 @@
-# Creating a Service
+# Managing both Server and Local Ngrx State
+### Directory Strucuture
+```
+src/
+   app/
+      components/
+      containers/
+         user.ts
+   effects/
+      user.ts
+   store/
+      actions/
+         server/
+            user.ts
+         local/
+            user.ts
+      models/
+         user.ts
+      reducers/
+         user.ts
+```
 #### Example:
 For this example we will be creating the basic parts of a `User` service.
 
